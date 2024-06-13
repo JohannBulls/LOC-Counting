@@ -7,8 +7,17 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The FileUtil class provides utility methods for file operations.
+ */
 public class FileUtil {
 
+    /**
+     * Retrieves a list of files matching the specified pattern within the base directory.
+     *
+     * @param pattern The pattern used to match files or directories.
+     * @return A list of files that match the given pattern.
+     */
     public static List<File> getFiles(String pattern) {
         List<File> files = new ArrayList<>();
         File baseDir = new File(pattern).getAbsoluteFile().getParentFile();

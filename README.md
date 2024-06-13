@@ -1,14 +1,10 @@
-Para incluir la información sobre el diagrama de clases y detallar las clases presentes en el proyecto en tu README, puedes seguir esta estructura:
-
----
-
 # LOC Counting Application
 
 This project provides a command-line utility to count lines of code (LOC) and physical lines in source code files.
 
 ## Diagrama de Clases
 
-El diagrama de clases se encuentra en [Class Diagram](src/test/resources/Class_Diagram.asta).
+El diagrama de clases se encuentra en [Class Diagram](src/test/resources).
 
 ### Clases y Descripción
 
@@ -128,8 +124,4 @@ See also the list of [contributors](https://github.com/your/loc-counting/contrib
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
-
----
-
-Incluyendo esta sección en tu README, proporcionas una visión general clara de las clases involucradas en el proyecto y dónde encontrar el diagrama de clases correspondiente. Ajusta las URLs y los detalles según corresponda a tu proyecto específico.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/JohannBulls/LOC-Counting?tab=GPL-3.0-1-ov-file#) file for details.

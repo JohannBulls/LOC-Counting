@@ -7,8 +7,17 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * The App class is a command-line utility for counting lines of code (LOC) and
+ * physical lines in source code files based on user input.
+ */
 public class App {
 
+    /**
+     * Main method to execute the LOC counting application.
+     *
+     * @param args Command-line arguments: <type> <file/directory pattern>
+     */
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Usage: java App <type> <file/directory pattern>");
