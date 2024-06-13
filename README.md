@@ -107,6 +107,10 @@ To deploy this application on a live system:
 
    Replace `<parameter>` with `phy` for physical lines or `loc` for lines of code, and `<filename>` with the path to the source code file.
 
+   **Example**
+   ```
+   java -jar target/loc-counting.jar loc Example.java
+   ```
 ## Built With
 
 - [Java](https://www.java.com/) - Programming language
