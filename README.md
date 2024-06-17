@@ -124,8 +124,6 @@ We use [Git](https://git-scm.com/) for version control.
 
 - Johann Amaya Lopez - *JohannBulls* - [JohannBulls GitHub](https://github.com/JohannBulls)
 
-See also the list of [contributors](https://github.com/your/loc-counting/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/JohannBulls/LOC-Counting?tab=GPL-3.0-1-ov-file#) file for details.
